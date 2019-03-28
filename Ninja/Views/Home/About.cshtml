@@ -4,4 +4,155 @@
 <h2>@ViewBag.Title.</h2>
 <h3>@ViewBag.Message</h3>
 
-<p>Use this area to provide additional information.</p>
+
+
+<body>
+
+
+
+
+    <script src="http://code.jquery.com/jquery-3.3.1.js"
+            integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+            crossorigin="anonymous"></script>
+
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+    <div class="container">
+        <div class="jumbotron">
+            <h1>Activities and Tasks</h1>
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+            </p>
+        </div>
+
+        <div class="container">
+            <h3>Choose a project</h3>
+            <div class="form-group">
+                <label for="sel1">Select list:</label>
+                <select class="form-control" id="sel1">
+                    <option>Project 1</option>
+                    <option>Project 2</option>
+                    <option>Project 3</option>
+                    <option>Project 4</option>
+                </select>
+            </div>
+        </div>
+        <h3>Enter activity details for this project</h3>
+
+
+        <form>
+            <form>
+                <div class="form-row">
+                    <div class="col">
+                        <label for="form-row">Activity Name</label>
+
+                        <input type="text" class="form-control" placeholder="Activity">
+                    </div>
+                    <div class="col">
+                        <label for="form-row">Owner Name</label>
+                        <input type="text" class="form-control" placeholder="Owner">
+                    </div>
+                </div>
+            </form>
+
+
+            <form>
+                <form>
+                    <div class="form-row">
+                        <div class="col">
+                            <form method="post">
+                                <label for="form-row">Predicted start date</label>
+
+                                <input class="form-control" id="date" name="date" placeholder="MM/DD/YYYY" type="text" />
+                        </div>
+                        <div class="col">
+                            <label for="form-row">Predicted finish date</label>
+                            <input class="form-control" id="date" name="date" placeholder="MM/DD/YYYY" type="text" />
+                        </div>
+                    </div>
+                </form>
+                <div class="form-row">
+                    <div class="col">
+                        <form method="post">
+                            <label for="form-row">Actual start date</label>
+
+                            <input class="form-control" id="date" name="date" placeholder="MM/DD/YYYY" type="text" />
+                    </div>
+                    <div class="col">
+                        <label for="form-row">Actual finish date</label>
+                        <input class="form-control" id="date" name="date" placeholder="MM/DD/YYYY" type="text" />
+                    </div>
+                </div>
+            </form>
+
+            <div class="submit">
+                <a href="Thank you.html" " class="btn btn-info btn-lg">Submit activity details</a>
+                <div class="container">
+                    <h3>Select the activity that you wish to add tasks to</h3>
+                    <div class="form-group">
+                        <label for="sel1">Select list:</label>
+                        <select class="form-control" id="sel1">
+                            <option>Activity 1</option>
+                            <option>Activity 2</option>
+                            <option>Activity 3</option>
+                            <option>Activity 4</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+            <h3>Enter task details for this activity</h3>
+            <form>
+                <form>
+                    <div class="form-row">
+                        <div class="col">
+                            <label for="form-row">Task Name</label>
+
+                            <input type="text" class="form-control" placeholder="Task">
+                        </div>
+                        <div class="col">
+                            <label for="form-row">Staff member</label>
+                            <input type="text" class="form-control" placeholder="Staff member">
+                        </div>
+                    </div>
+                </form>
+
+
+                <form>
+                    <form>
+                        <div class="form-row">
+                            <div class="col">
+                                <form method="post">
+                                    <label for="form-row">Predicted start date</label>
+
+                                    <input class="form-control" id="date" name="date" placeholder="MM/DD/YYYY" type="text" />
+                            </div>
+                            <div class="col">
+                                <label for="form-row">Predicted finish date</label>
+                                <input class="form-control" id="date" name="date" placeholder="MM/DD/YYYY" type="text" />
+                            </div>
+                        </div>
+                    </form>
+                    <div class="form-row">
+                        <div class="col">
+                            <form method="post">
+                                <label for="form-row">Actual start date</label>
+
+                                <input class="form-control" id="date" name="date" placeholder="MM/DD/YYYY" type="text" />
+                        </div>
+                        <div class="col">
+                            <label for="form-row">Actual finish date</label>
+                            <input class="form-control" id="date" name="date" placeholder="MM/DD/YYYY" type="text" />
+                        </div>
+                    </div>
+                </form>
+
+                <div class="submit">
+                    <a href="Thank you.html" " class="btn btn-info btn-lg">Submit Task details</a>
+                </div>
+
+            </form>
+        </form>
+
